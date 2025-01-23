@@ -69,7 +69,7 @@ export default function ChatsSidebar() {
             <div className="md:block hidden w-80 h-screen overflow-y-scroll scrollbar bg-gray-800 ">
                 <Link href={"/chat"} className="text-white items-center flex flex-row gap-2 p-2 border-[1px] rounded-md border-gray-400">
                     <AiOutlinePlus />
-                    <p>New Chat</p>
+                    <p>niyu chat</p>
                 </Link>
                 <div className="relative flex flex-col items-center justify-start px-2 py-2">
                     <div className="w-12 h-auto absolute top-0 right-0 bg-gradient-to-l from-gray-800"></div>

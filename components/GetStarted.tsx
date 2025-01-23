@@ -23,16 +23,16 @@ export default function GetStarted() {
         <div className="w-full h-full bg-p-5">
             <div className="flex relative items-center justify-center flex-col gap-2 w-full h-full rounded-t-3xl bg-white">
                 <span className="flex flex-row items-center justify-center gap-2 absolute top-6 left-8">
-                    <h1>ukuhumusha chat</h1>
+                    <h1>multi laNguage fontpicker n chat</h1>
                     <BsCircleFill />
                 </span>
                 <h1 className="h-6">get stArted</h1>
                 <div className="flex flex-col sm:flex-row gap-4">
                     <FontPicker/>
-                    <button onClick={handleSignIn} className="login-button">Login</button>
-                    <button onClick={handleSignIn} className="login-button">Sign Up</button>
+                    <button onClick={handleSignIn} className="login-button">please du login</button>
+                    <button onClick={handleSignIn} className="login-button">kindly du signup</button>
                 </div>
-                <Link href={"/guest"} className="text-center h-12"><b>Proceed as Guest</b></Link>
+                <Link href={"/guest"} className="text-center h-12"><b>proceed as guest_meHman</b></Link>
                 
                 <div className="absolute bottom-0 w-full flex items-center justify-center h-20">
                     <div className="flex flex-row gap-2 text-sm text-gray-400">

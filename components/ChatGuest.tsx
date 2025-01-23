@@ -22,7 +22,7 @@ export default function ChatGuest() {
     const [messages, setMessages] = useState<any>(INITIAL_MESSAGES)//messages in EN
     const [translatedMessages, setTranslatedMessages] = useState<any>([])//messages in obscure foreign language
     const [input, setInput] = useState("")
-    const [target, setTarget] = useState("zu")
+    const [target, setTarget] = useState("hi")
     const [translateOpen, setTranslateOpen] = useState(true)
     const [date, setDate] = useState<string>("")
 
