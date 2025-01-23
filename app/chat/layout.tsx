@@ -1,6 +1,5 @@
 import '../globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import ChatsSidebar from '@/components/ChatsSidebar'
 import ChatsSidebarMobile from '@/components/ChatsSidebarMobile'
 import { hindi15 } from '@/components/lifonts/localfonts'

@@ -14,11 +14,12 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+you can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+this project uses [multiliNgual fontpicker](https://aaztk.vercel.app) to allow user to select font as per Her/his laNguage script.
+user can transliterate his laNguage script to latin using [zava8 trAnsliterator](zava8.github.io)
 
 ## Learn More
 
