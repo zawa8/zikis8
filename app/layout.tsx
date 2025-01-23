@@ -1,13 +1,10 @@
+import { bangla15 } from '@/components/lifonts/localfonts'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ukuhumusha',
-  description: 'Unhinged ChatGPT',
+  title: 'zikis8',
+  description: 'asiA multiliNgual chatgpt',
 }
 
 export default function RootLayout({
@@ -17,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={bangla15.className}>
         {children}</body>
     </html>
   )
