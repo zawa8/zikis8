@@ -1,4 +1,4 @@
-import { bangla15 } from '@/components/lifonts/localfonts'
+import { ing15b } from '@/components/lifonts/localfonts'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={bangla15.className}>
+      <body className={ing15b.className}>
         {children}</body>
     </html>
   )
