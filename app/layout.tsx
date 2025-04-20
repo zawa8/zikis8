@@ -1,20 +1,16 @@
-import { ing15b } from '@/components/lifonts/localfonts'
+import { inglishenglosoftw8asc} from '@/components/lifonts/localfonts'
 import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'zikis8',
-  description: 'asiA multiliNgual chatgpt',
+  description: 'xsia multiliNguxl chxtgpt',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children, }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={ing15b.className}>
+      <body className={`${inglishenglosoftw8asc.className} min-h-screen bg-background antialiased`}>
         {children}</body>
     </html>
   )

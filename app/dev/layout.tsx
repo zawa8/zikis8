@@ -1,7 +1,7 @@
 import '../globals.css'
 import type { Metadata } from 'next'
 import Header from '@/components/Header'
-import { hindi15 } from '@/components/lifonts/localfonts'
+import { hindienglosoftw8asc } from '@/components/lifonts/localfonts'
 
 export const metadata: Metadata = {
   title: '8aiueohcg+8ADHTNkvz',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={hindi15.className}>
+      <body className={hindienglosoftw8asc.className}>
         {children}</body>
     </html>
   )
